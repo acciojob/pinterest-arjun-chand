@@ -4,10 +4,42 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+    <style>
+        .hero{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+        .imgage{
+            object-fit: cover;
+            height: 200px;
+            width: 300px;
+        }
+        .btn{
+            padding:5px;
+            background-color: red;
+            color:white; 
+            border-radius:5px;
+        }
+        .container{
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class = "hero">
+		<img src = "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class ="image" width = 400px height = 200px>
+		<div class ="container">
+			<h1>Welcome to my Pinterest clone</h1>
+			<p>Discover new inspiration and save your favorite ideas</p>
+            <button type="button" class="btn">Explore Now</button>
+	    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
